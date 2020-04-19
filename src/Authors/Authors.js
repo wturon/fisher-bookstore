@@ -10,7 +10,6 @@ export default function Authors(props) {
        .then(response => response.json())
        .then(data => setData(data));
    },[])
-
    
     return(
         <div className="Author">
